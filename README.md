@@ -78,11 +78,3 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File (Join-Path $desktopPath 
 先检查是否存在待处理的批准请求。若界面还能操作，可以尝试新聊天；持续卡住时，在可中断任务后手动退出并重新打开应用。参考 [OpenAI 官方故障排查说明](https://learn.chatgpt.com/docs/reference/troubleshooting)。
 
 提交问题时，请使用本仓库 Issue 模板，描述应用版本、Windows 版本、复现步骤、脚本输出以及前端是否恢复。分享日志之前移除令牌、邮箱、本地个人路径和私人聊天内容。
-
-## 材料来源
-
-- 用户提供的 `Fix-Codex.ps1`，原样收录。
-- 用户描述的症状：后端成功运行，但前端卡死。
-- 用户补充的对话摘录：结束进程、等待 5 秒、必要时重新启动，以及桌面右键运行的方法。完整分享页面未能读取；本文依据所提供的摘录和脚本整理，不将示例输出视为实际修复验证。
-
-原脚本 SHA-256：`3D6B00D02A6A2471BC75213EEFFE8CE618B8771AC05C886E781EE19890969166`。
